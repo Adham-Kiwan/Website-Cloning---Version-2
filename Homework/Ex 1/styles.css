@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+header div a{
+    text-decoration: none;
+    color: black;
+
+}
+header>div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header div h1 {
+    font-size: 20px;
+}
+
+header div button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+}
+header div button i {
+    font-size: 20px;
+}
+.header-right i{
+    font-size: 20px;
+}
+.header-right h2{
+    font-size: 17px;
+    font-weight: 500;
+}
+.header-center i{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 70px;
+    font-size: 20px;
+    color: white;
+}
+body {
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; /* Adjust to fit the full page */
+    height: 100vh;
+    margin: 0;
+}
+
+.section-1{
+    display: flex;
+}
+.section-1-left {
+    width: 60%;
+    margin-left: 100px;
+}
+.section-1-left h1{
+    width: 50%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.section-1-left-title {
+    color: blue;
+}
+.section-1-left-text {
+    width: 60%;
+    color: grey;
+}
+.section-1-right {
+    width: 40%;
+}
+.section-1-right-input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.section-1-right-form {
+    background-color: white;
+    width: 50%;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-1-left img {
+    margin-left: -30px;
+}
+.section-1-right-form-header {
+    display: flex;
+    justify-content: space-between;
+}
