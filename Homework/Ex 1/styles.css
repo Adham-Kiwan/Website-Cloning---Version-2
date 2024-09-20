@@ -176,3 +176,143 @@ body {
     gap: 40px;
 }
 
+.section-3 {
+    display: flex;
+    padding: 200px 100px;
+}
+.section-3-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+    margin-top: 50px;
+}
+.section-3-left-title {
+    width: 65%;
+    font-size: 30px;
+}
+.section-3-left-div {
+    background-color: white;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.section-3-left-div-title {
+    color: blue;
+    font-weight: 400;
+}
+.section-3-left-img {
+    width: 10%;
+    height: 50%;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    gap: 50px;
+}
+.section-4-top {
+    display: flex;
+    justify-content: space-between;
+}
+.section-4-top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-4-top-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.section-4-top-buttons-all {
+    padding: 8px 25px;
+    border-radius: 50px;
+    border-color: #3A0CA3;
+    color: #3A0CA3;
+    background-color: white;
+    cursor: pointer;
+}
+.section-4-top-buttons-sell {
+    padding: 9px 26px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #3A0CA3;
+    cursor: pointer;
+}
+.section-4-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card img {
+    width: 280px;
+    cursor: pointer;
+}
+.card-price {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+.card-title {
+    font-weight: 600;
+}
+.card-footer {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #D4D4D4;
+    padding-top: 60px; 
+    margin-top: 100px;
+}
+.section-5-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.section-5-top h3{
+    font-weight: 500;
+}
+.section-5-top h1{
+    letter-spacing: 2.5px;
+    font-weight: 800;
+}
+.section-5-bottom img {
+    cursor: pointer;
+}
+.section-6-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.section-6-top img{
+    cursor: pointer;
+}
+.section-6-top>div {
+    margin-left: -700px;
+}
+.section-6-top h1 {
+    width: 100%;
+}
