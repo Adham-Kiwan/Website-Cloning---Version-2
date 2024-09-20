@@ -33,6 +33,7 @@ header div button {
     gap: 10px;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 header div button i {
     font-size: 20px;
@@ -76,7 +77,7 @@ body {
     color: blue;
 }
 .section-1-left-text {
-    width: 60%;
+    width: 50%;
     color: grey;
 }
 .section-1-right {
@@ -86,16 +87,23 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
+}
+.section-1-right-input input {
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(243, 243, 243);
 }
 .section-1-right-form {
     background-color: white;
-    width: 50%;
+    width: 70%;
     padding: 40px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
 }
 .section-1-left img {
     margin-left: -30px;
@@ -103,4 +111,24 @@ body {
 .section-1-right-form-header {
     display: flex;
     justify-content: space-between;
+}
+.advance-search {
+    display: flex;
+    gap: 20px;
+    color: blue;
+    cursor: pointer;
+}
+.section-1-right div button {
+    background-color: blue;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
 }
