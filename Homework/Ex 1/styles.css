@@ -410,10 +410,9 @@ body {
     background-color: #3A0CA3;
     border-radius: 70px;
 }
-.section-10-inner-text h1, p{
+
+.section-10-inner-text-1 h1 {
     color: white;
-}
-.section-10-inner-text h1 {
     font-size: 40px;
     letter-spacing: 3px;
     font-weight: 450;
@@ -479,4 +478,77 @@ footer {
     font-size: 25px;
     color: #3A0CA3;
     cursor: pointer;
+}
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1 {
+        flex-direction: column;
+    }
+
+    .section-1-left,
+    .section-1-right {
+        width: 100%;
+    }
+    .section-1-right-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section-1-right-form-header {
+        flex-direction: column;
+    }
+
+    .section-1-bottom {
+        flex-direction: column;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+    .section-4-top {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .section-4-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-5-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .section-7-bottom {
+        flex-direction: column;
+    }
+    .section-8-bottom {
+        flex-direction: column;
+    }
+    .section-9 {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 100%;
+    }
 }
